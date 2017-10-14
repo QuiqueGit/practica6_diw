@@ -5,7 +5,7 @@
     <title>Practica 6e</title>
     <meta name="keywords" content="website template" />
     <meta name="description" content="Layout" />
-    <link href="css/practica6_3.css" rel="stylesheet" type="text/css" />
+    <link href="css/practica6_4.css" rel="stylesheet" type="text/css" />
     <!--  Slimbox Credit Link | http://www.digitalia.be/software/slimbox2  -->
     <link rel="stylesheet" href="slimbox/slimbox2.css" type="text/css" media="screen" />
     <script type="text/javascript" src="slimbox/jquery.min.js"></script>
@@ -20,17 +20,16 @@
     </script>
 </head>
 <body> 
-
-    <div class="wrapper"> <!-- Comienza wrapper -->
       
         <div class="cabecera">  <!-- Comienza cabecera -->
+          <div class="wrapper">
             <div class="logo"> 
                 <h1>Magazine Style</h1>
                 <h2>new way of thinking for your life</h2>
             </div>
             <div class="search">
-                <a href="#"><img src="images/rss_icon_28x28.png" alt="RSS Feed" border="0" /></a>
-                <form action="index.html" method="post">
+                <a href="#"><img id="rss_image" src="images/rss_icon_28x28.png" alt="RSS Feed" border="0" /></a>
+                <form id="form_search" action="index.html" method="post">
                     <input type="text" value="Search" id="textfield" onfocus="clearText(this)" onblur="clearText(this)"/>
                     <input type="submit" name="Search" value="Search" alt="Search" id="button" title="Search" />
                 </form>
@@ -46,13 +45,16 @@
                     <li><a href="#">Contact</a></li>   
                 </ul> 
             </div>
+          </div>
         </div> <!-- Finaliza cabecera -->
 
-        <div class="area_de_contenido"> <!-- Comienza area_de_contenido -->
+        <div class="wrapper">
 
-          <div class="left_section_box">
+          <div class="area_de_contenido"> <!-- Comienza area_de_contenido -->
+          
 
             <div class="left_section"> <!-- Comienza left_section -->
+             <div class="left_section_box">
               <div class="box_cabecera">Post title one goes here</div>
               <div class="box_contenido">
                 <p><img alt="templatesfree" src="images/thumb_7.jpg" />This is a FREE CSS template provided by <a href="http://www.templatesfree.com" target="_parent">Free CSS Templates</a>. You may download, edit and use this template layout for your websites. Credits:  <a href="http://www.photovaco.com" target="_blank">Free Photos</a> for photos and <a href="http://www.digitalia.be/software/slimbox2" target="_blank">Digitalia.be</a> for slimbox2.</p>                        
@@ -63,9 +65,10 @@
                 <span class="post">Posted on 18:40, 24 December 2024</span>
 
             </div>
+          </div>
 
 
-            <div >
+            <div class="left_section_box">
                 <div class="box_cabecera">Post title two goes here</div>
                 <div class="box_contenido">
                     <p><img alt="templatesfree" src="images/thumb_8.jpg" />Quisque dictum pharetra neque. Aliquam pretium porta odio. Fusce quis diam sit amet tortor luctus pellentesque.</p>
@@ -74,10 +77,11 @@
                     <p>Fusce quis enim. Aenean eleifend, neque hendrerit elementum sodales, odio erat sagittis quam, sed tempor orci magna vitae tellus. Proin dui mauris, tempor eget, pulvinar sed, pretium sit amet, dui. Proin vulputate justo et quam.</p>
 
                     <span class="post">Category: <a href="#">Flash Templates</a></span>
-                    <span class="post">Posted on 14:20, 29 November 2024</span>                    </div>
+                    <span class="post">Posted on 14:20, 29 November 2024</span> 
                 </div>
+            </div>
                 
-                <div >
+                <div class="left_section_box">
                     <div class="box_cabecera">Post title three goes here</div>
                     <div class="box_contenido">
                         <p>Cras nulla sem, posuere non, molestie ut, molestie in, justo. In fermentum, eros ac tincidunt aliquam, elit velit semper nunc, a tincidunt orci lectus a arcu.</p> 
@@ -100,23 +104,20 @@
 
             </div> <!-- Finaliza left_section -->
 
-          </div>
-
+        
 
             <div class="middle_section"> <!-- Comienza middle_section -->
 
 
-                <div>
+                <div class="middle_section_box">
                     <h1>Categories</h1>
                     <ul>
                         <li><a href="#">Aliquam posuere</a></li>
                         <li><a href="#">Donec mattis rhoncus m</a></li>
                         <li><a href="#">Ipsum dolor sit amet</a></li>
                         <li><a href="#">Aliquam erat arcu</a></li>
-                        <li><a href="#">Mauris congue felis at nisi</a></li>
-                        
-                        <li>&nbsp;</li>
-
+                        <li><a href="#">Mauris congue felis at nisi</a></li>                        
+                        <li class="separar_li"></li>
                         <li><a href="#">Pellentesque leo lacus</a></li>
                         <li><a href="#">Rhoncus nec, consequat ac</a></li>
                         <li><a href="#">Lorem ipsum dolor sit</a></li>
@@ -125,7 +126,7 @@
                     </ul>
                 </div>
                 
-                <div>
+                <div class="middle_section_box">
                     <h1>Recent Posts</h1>
                     <ul>
                         <li><a href="#">Rhoncus nec, consequat ac</a></li>
@@ -133,7 +134,7 @@
                         <li><a href="#">Consectetur adipiscing eli</a></li>
                         <li><a href="#">Nulla et nunc commodo</a></li>
                         <li><a href="#">Aliquam posuere</a></li>
-                        <li>&nbsp;</li>
+                        <li class="separar_li"></li>
                         <li><a href="#">Donec mattis rhoncus</a></li>
                         <li><a href="#">Pellentesque leo lacus</a></li>
                         <li><a href="#">Ipsum dolor sit amet</a></li>
@@ -142,7 +143,7 @@
                     </ul>
                 </div>
                 
-                <div>
+                <div class="middle_section_box">
                     <h1>Website Links</h1>
                     <ul>
                         <li><a href="http://www.flashmo.com" target="_blank">Free Flash Templates</a></li>
@@ -150,7 +151,7 @@
                         <li><a href="http://www.photovaco.com" target="_blank">Royalty Free Photos</a></li>
                         <li><a href="http://www.webdesignmo.com" target="_blank">Web Design Blog</a></li>
                         <li><a href="http://www.flashmo.com/store" target="_blank">Premium Templates</a></li>
-                        <li>&nbsp;</li>
+                        <li class="separar_li"></li>
                         <li><a href="#">Nulla et nunc commodo</a></li>
                         <li><a href="#">Aliquam posuere</a></li>
                         <li><a href="#">Rhoncus nec, consequat ac</a></li>
@@ -160,11 +161,11 @@
                 </div>
 
             </div> <!-- Finaliza middle_section -->
+        
             
             <div class="right_section">  <!-- Comienza right_section -->
 
-               <div class="right_section_box">
-                <div>
+                <div class="right_section_box">
                     <h1>Popular Posts</h1>
                     <h2><a href="#">Quisque dictum pharetra neque</a></h2>
                     <p>Fusce quis diam sit amet tortor luctus pellentesque. Donec accumsan urna non elit tristique mattis.</p>
@@ -179,7 +180,7 @@
                     <p class="last">Aenean eleifend, neque hendrerit elementum sodales, odio erat sagittis quam, sed tempor orci magna vitae tellus.</p>
                 </div>
                 
-                <div>
+                <div class="right_section_box">
                     <h1>Photo Gallery</h1>
                     <div class="galeria">
 
@@ -204,22 +205,26 @@
                     </div>
                 </div>
 
-                <div class="anuncio">
-                    <h1>Advertisement</h1>
-                    <a href="#"><img src="images/ads.jpg" alt="Advertisement" border="0" /></a>
+
+                <div class="right_section_box">
+                    <div class="anuncio">
+                        <h1>Advertisement</h1>
+                        <a href="#"><img src="images/ads.jpg" alt="Advertisement" border="0" /></a>
+                    </div>
                 </div>
-            </div>
 
             </div> <!-- Finaliza right_section -->
-
-
             
             <div class="cleaner_with_height">&nbsp;</div>
+         </div>
         </div> <!-- Finaliza area_de_contenido -->
-        <div>
+
+        <div class="footer">
+            <div class="wrapper">
             Copyright © 2024 Your Company Name | Designed by <a href="http://www.templatesfree.com" target="_parent">Free CSS Templates</a>
+            </div>
         </div>
-    </div> <!-- Finaliza wrapper -->
+    
 </body>
 
 </html>
