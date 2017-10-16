@@ -1,0 +1,325 @@
+html {
+	background-color: #fff;
+}
+
+body {
+	margin: 0;
+	padding: : 0;
+	font-family: Arial, Helvetica, sans-seriff;
+	font-size:  12px;
+	line-height: 1.5em;
+	color: #333333;
+	width: 100%;
+	display: table; 
+}
+
+a {
+	color: #333;	
+}
+
+a:hover {
+	color: #666;
+}
+
+.logo{
+	width: 385px;
+	height: 55px;
+	float: left;
+	margin-top: 25px;
+	padding: 20px 0 0 25px;
+	background-image: url("../images/logo_bg.jpg");
+	background-repeat: repeat-x;
+}
+
+.logo h1, h2 {
+	margin: 0;
+	color: #666;
+}
+
+.logo h1 {
+	padding: 0;
+	font-size: 24px;
+}
+
+.logo h2 {
+	padding: 10px 0 0 0;
+	font-size: 14px;
+}
+
+.search{
+	width: 320px;
+	height: 70px;
+	float: right;
+	margin: 30px 20px 0 0;
+}
+
+#form_search {
+	float: right;
+	width: 330px;
+	margin-top: 10px;
+}
+
+#rss_image {
+	float: right;
+	margin: 0 -7px 0 0;
+}
+
+#textfield {
+	float: left;
+	width: 240px;
+	height: 16px;
+	background-color: #fff;
+	color: #999;
+	border: solid 1px #999;
+	margin: 0;
+	padding: 5px 5px;
+
+}
+
+#button {
+	float: right;
+	border: solid 1px #999;
+	cursor: pointer;
+	font-size: 14px;
+	text-align: center;
+	white-space: pre;
+	width: 70px;
+	height: 28px;
+	color: #999;
+	background-color: #fff;
+	margin: 0;
+	padding: 4px 0 5px 0; 
+
+}
+
+.area_de_contenido{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.wrapper {
+	margin: auto;
+	width: 950px;
+}
+
+.left_section{
+	width: 410px;
+	float: left;
+}
+
+.middle_section{
+	width: 180px;
+	float: left;
+	margin: 0 10px 0 10px;
+}
+
+.right_section{
+	width: 322px;
+	float: right;
+	margin-right: 10px;
+}
+
+.right_section_box {
+	margin: 0 0 15px 0;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.right_section_box h1 {
+	color: #c60;
+	font-size: 15px;
+	margin: 0 0 8px 0;
+	padding: 0;
+	text-decoration: underline;
+}
+
+.right_section_box h2 {
+	color: #333;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+.right_section_box h2 a {
+	text-decoration: none;
+
+}
+
+.right_section_box h2 a:hover{
+	text-decoration: underline;
+}
+
+.right_section_box p {
+	color: #333;
+	text-align : justify;
+	font-size: 11px;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+.cleaner{	
+	clear: both;
+}
+
+.cleaner_with_height{
+	clear: both;
+}
+
+.last p {
+	margin: 0;
+}
+
+.galeria {
+	margin-left: 5px;	
+}
+
+.galeria img {
+	margin: 5px 5px 0 0;
+}
+
+.anuncio {
+	margin: 5px 0 5px 0;
+}
+
+.left_section_box {
+	margin: 0 0 15px 0;
+}
+
+.left_section_box img {
+	float: left;
+	border: none;
+	margin: 0 13px 10px 0;
+	display: inline;
+}
+
+.box_cabecera {
+	width: 395px;
+	height: 20px;
+	background-image: url("../images/section_box_top.jpg");
+	background-repeat: repeat-x;
+	font-weight: bold;
+	font-size: 16px;
+	color: #666;
+	padding: 10px 0 0 15px;
+}
+
+.box_contenido{
+	width: 380px;
+	padding: 0 15px 0 0;	
+}
+
+.post{
+	margin-top: 25px;
+	color: #c60;
+	font-size: 11px;	
+}
+
+.post a{
+	color: #c60;
+	text-decoration: none;	
+}
+
+.post a:hover {
+	text-decoration: underline;
+}
+
+.middle_section_box {
+	margin: 0 0 15px 0;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.middle_section_box h1 {
+	color: #c60;
+	font-size: 15px;
+	margin: 0 0 8px 0;
+	padding: 0;
+	text-decoration: underline;
+
+}
+
+.middle_section_box ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-family: verdana;
+	font-size: 11px;
+
+}
+
+.middle_section_box li{
+	margin-bottom: 3px;
+
+}
+
+/* separar los li para agruparlos de 5 en 5...*/
+.separar_li {
+	margin-top: 24px;
+
+}
+
+.menu {
+	height: 38px;
+	float: left;
+	margin: 21px 0 0 0;
+	padding: 0;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu ul li{	
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style: none;
+}
+
+.menu ul li a {
+	width: 110px;
+	float: left;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	color: #8A4500;
+	padding-top: 8px;
+
+}
+
+.menu ul li a:hover {
+	color: #fff;
+	height: 26px;
+	background-color: #cc6601;
+
+}
+
+.cabecera {
+	width: 100%;
+	height: 157px;
+	background-image: url("../images/background_section_top_bg.jpg");
+
+}
+
+.current li a {
+	color: #fff;
+	height: 26px;
+	background-color: #cc6601;
+
+}
+
+.footer {
+	height: 29px;
+	background-image: url("../images/footer_bg.jpg");
+	background-repeat: repeat-x;
+	font-family: verdana;
+	text-align: center;
+	font-size: 11px;
+	padding: 20px 0 0 0;
+	color: #666;
+
+}
