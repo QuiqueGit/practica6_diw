@@ -13,9 +13,10 @@
 	overflow:hidden;
 }
 
-#animated-menu li>ul {
+#animated-menu li>ul>li {
 	text-align: left;
 	margin-left: 35px;
+	float: none;
 }
 
 #animated-menu a{
