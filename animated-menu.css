@@ -1,36 +1,42 @@
 #animated-menu ul{
-	margin:0;
-	padding:0;
+	width: 950px;
+	margin: 0;
+	padding: 0;
 }
 
 #animated-menu li{
-	width:100px;
-	height:50px;
+	width: 121px;
+	height: 34px;
 	float:left;
 	color:#191919;
 	text-align:center;
 	overflow:hidden;
 }
 
+#animated-menu li>ul {
+	text-align: left;
+	margin-left: 35px;
+}
+
 #animated-menu a{
-	color:#FFF;
+	color: #8A4500;
 	text-decoration:none;
 }
 
+#animated-menu a:hover{
+	color: #fff;
+}
+
 #animated-menu p{
-	padding:0px 5px;
+	padding: 0px 5px;
 }
 
 	.subtext{
-		padding-top:15px;
+		padding-top: 15px;
 	}
 
 /*Menu Color Classes*/
-.green{background:#6AA63B url('images/green-item-bg.jpg') top left no-repeat;}
-.yellow{background:#FBC700 url('images/yellow-item-bg.jpg') top left no-repeat;}
-.red{background:#D52100 url('images/red-item-bg.jpg') top left no-repeat;}
-.purple{background:#5122B4 url('images/purple-item-bg.jpg') top left no-repeat;}
-.blue{background:#0292C0 url('images/blue-item-bg.jpg') top left no-repeat;}
+.green{background:#cc6601 top left no-repeat;}
 
 #animated-menu {
 	position: absolute;
