@@ -308,7 +308,10 @@ a:hover {
 #icons ul li{
 	list-style: none;
 	display: inline;
+}
 
+#icons a:hover{
+	filter: grayscale(100);
 }
 
 .cabecera {
